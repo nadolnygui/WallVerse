@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>WallVerse - Conheça seu novo estilo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="Logo do WallVerse" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#carousel">DESTAQUES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#todos">TODOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#footer">SOBRE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="carousel-style">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/carousel-wall1.jpg" alt="Pocket watch wallpaper">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel-wall2.jpg" alt="Old home wallpaper">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel-wall3.jpg" alt="IA grocery store wallpaper">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="container mt-5" id="todos">
+        <h2>ENCONTRE O SEU WALLPAPER</h2>
+        <div class="row my-5">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card h-100">
+                    <img src="./images/egypt-house.jpg" alt="Egypt house" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa egípcia</h5>
+                        <p class="card-text">Paisagem de uma casa sobre o mar</p>
+                        <a href="#" class="btn btn-outline-dark">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card h-100">
+                    <img src="./images/scotland-house.jpg" alt="Scotland house" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa escocêsa</h5>
+                        <p class="card-text">Paisagem de uma casa no campo.</p>
+                        <a href="#" class="btn btn-outline-dark">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card h-100">
+                    <img src="./images/vintage-wall.jpg" alt="Vintage wallpaper" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Wallpaper vintage</h5>
+                        <p class="card-text">Uma bússola, chave e moedas sobre mapa</p>
+                        <a href="#" class="btn btn-outline-dark">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+    <div id="footer" class="container text-center py-4">
+    <p>&copy; 2025 WallVerse. Todos os direitos reservados.</p>
+    </div>
+</footer>
+<script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
